@@ -29,7 +29,7 @@ jobs:
       run: pnpm install
 
     - name: Run generated script
-      run: pnpm generated
+      run: pnpm generate
 
     - name: Run build script
       run: pnpm build
