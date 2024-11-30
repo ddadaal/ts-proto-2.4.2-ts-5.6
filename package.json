@@ -1,0 +1,23 @@
+{
+  "name": "ts-proto-ts5.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "buf generate --template buf.gen.yaml protos",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@bufbuild/protobuf": "2.2.2"
+  },
+  "devDependencies": {
+    "ts-proto": "2.4.2",
+    "@bufbuild/buf": "1.34.0",
+    "typescript": "5.6.2",
+    "@types/node": "20.14.11"
+  },
+  "license": "ISC"
+}
